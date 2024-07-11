@@ -1,42 +1,71 @@
+/* Styling for the body of the document */
 body {
+    /* Font style for the text */
     font-family: Arial, sans-serif;
+    /* Background color for the page */
     background-color: #f4f4f4;
+    /* Centering the content both horizontally and vertically */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Full height of the viewport */
     height: 100vh;
+    /* Removing default margin */
     margin: 0;
 }
 
+/* Styling for the main container */
 .container {
+    /* Center text inside the container */
     text-align: center;
+    /* Background color for the container */
     background: white;
+    /* Padding inside the container */
     padding: 20px;
+    /* Rounded corners for the container */
     border-radius: 8px;
+    /* Shadow effect around the container */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Styling for the text input field */
 input[type="text"] {
+    /* Padding inside the input field */
     padding: 10px;
+    /* Width of the input field */
     width: 80%;
+    /* Margin around the input field */
     margin: 10px 0;
+    /* Border styling for the input field */
     border: 1px solid #ccc;
+    /* Rounded corners for the input field */
     border-radius: 4px;
 }
 
+/* Styling for the button */
 button {
+    /* Padding inside the button */
     padding: 10px 20px;
+    /* Removing border from the button */
     border: none;
+    /* Background color for the button */
     background: #007BFF;
+    /* Text color for the button */
     color: white;
+    /* Rounded corners for the button */
     border-radius: 4px;
+    /* Cursor style when hovering over the button */
     cursor: pointer;
 }
 
+/* Hover effect for the button */
 button:hover {
+    /* Darker background color when hovering */
     background: #0056b3;
 }
 
+/* Styling for the definition display area */
 #definition {
+    /* Margin on top of the definition area */
     margin-top: 20px;
 }

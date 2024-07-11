@@ -1,4 +1,5 @@
 LexiVerse
+
 Introduction
 LexiVerse is an intuitive online dictionary that allows users to search for word definitions quickly and efficiently. By leveraging the Merriam-Webster Dictionary API, it provides accurate and detailed word information.
 
